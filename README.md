@@ -45,6 +45,7 @@ SDDM theme
 
 ## ⌨️ Keybinds
 
+General keybinds
 | Keybind                               | Action                                                           |
 |---------------------------------------|------------------------------------------------------------------|
 | CTRL + ALT, Delete                    | Exit Hyrpland                                                    |
@@ -65,6 +66,10 @@ SDDM theme
 | SUPER + Left                          | Move focus left                                                  |
 | SUPER + Right                         | Move focus right                                                 |
 | SUPER + Up                            | Move focus up                                                    |
+
+Workspace/Window keybinds
+| Keybinds                              | Action                                                           |
+|---------------------------------------|------------------------------------------------------------------|
 | SUPER + Down                          | Move focus down                                                  |
 | SUPER + 1                             | Switch to workspace 1                                            |
 | SUPER + 2                             | Switch to workspace 2                                            |
