@@ -1,0 +1,320 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 24,
+    "spacing": 5,
+    "modules-left": ["hyprland/workspaces#rw"],
+    "modules-center": ["clock", "idle_inhibitor"],
+    "modules-right": [
+        "tray",
+        "network#speed",
+        "cpu",
+        "memory",
+        "wireplumber",
+        "backlight",
+        "hyprland/language",
+        "battery",
+        "custom/power",
+        "custom/space"
+    ],
+
+    "hyprland/workspaces#rw": {
+        "disable-scroll": true,
+        "all-outputs": true,
+        "warp-on-scroll": false,
+        "sort-by-number": true,
+        "show-special": false,
+        "on-click": "activate",
+        "on-scroll-up": "hyprctl dispatch workspace e+1",
+        "on-scroll-down": "hyprctl dispatch workspace e-1",
+
+        "persistent-workspaces": {
+            "*": 5
+        },
+
+        "format": "{icon} {windows}",
+        "format-window-separator": " ",
+        "window-rewrite-default": " ",
+
+        "window-rewrite": {
+            "title<.*amazon.*>": " ",
+            "title<.*reddit.*>": " ",
+
+            "class<firefox|org.mozilla.firefox|librewolf|floorp|mercury-browser|[Cc]achy-browser>": " ",
+            "class<zen>": "󰰷 ",
+            "class<waterfox|waterfox-bin>": " ",
+            "class<microsoft-edge>": " ",
+            "class<Chromium|Thorium|[Cc]hrome>": " ",
+            "class<brave-browser>": "🦁 ",
+            "class<tor browser>": " ",
+            "class<firefox-developer-edition>": "🦊 ",
+
+            "class<kitty|konsole|[Aa]lacritty>": " ",
+            "class<com.mitchellh.ghostty>": " ",
+            "class<org.wezfurlong.wezterm>": " ",
+            "class<Warp|warp|dev.warp.Warp|warp-terminal>": "󰰭 ",
+
+            "class<[Tt]hunderbird|[Tt]hunderbird-esr>": " ",
+            "class<eu.betterbird.Betterbird>": " ",
+            "title<.*gmail.*>": "󰊫 ",
+
+            "class<[Tt]elegram-desktop|org.telegram.desktop|io.github.tdesktop_x64.TDesktop>": " ",
+            "class<discord|discord-canary|[Ww]ebcord|[Vv]esktop|com.discordapp.Discord|dev.vencord.Vesktop>": " ",
+            "class<[Ss]ignal|signal-desktop|org.signal.Signal>": "󰍩 ",
+            "title<.*Signal.*>": "󰍩 ",
+            "title<.*whatsapp.*>": " ",
+            "title<.*zapzap.*>": " ",
+            "title<.*messenger.*>": " ",
+            "title<.*facebook.*>": " ",
+            "title<.*Discord.*>": " ",
+
+            "title<.*ChatGPT.*>": "󰚩 ",
+            "title<.*deepseek.*>": "󰚩 ",
+            "title<.*qwen.*>": "󰚩 ",
+            "class<subl>": "󰅳 ",
+            "class<slack>": " ",
+
+            "class<mpv>": " ",
+            "class<celluloid|Zoom>": " ",
+            "class<Cider>": "󰎆 ",
+            "title<.*Picture-in-Picture.*>": " ",
+            "title<.*youtube.*>": " ",
+            "class<vlc>": "󰕼 ",
+            "class<[Kk]denlive|org.kde.kdenlive>": "🎬 ",
+            "title<.*Kdenlive.*>": "🎬 ",
+            "title<.*cmus.*>": " ",
+            "class<[Ss]potify>": " ",
+            "class<Plex>": "󰚺 ",
+
+            "class<virt-manager>": " ",
+            "class<.virt-manager-wrapped>": " ",
+            "class<remote-viewer|virt-viewer>": " ",
+            "class<virtualbox manager>": "💽 ",
+            "title<virtualbox>": "💽 ",
+            "class<remmina|org.remmina.Remmina>": "🖥️ ",
+
+            "class<VSCode|code|code-url-handler|code-oss|codium|codium-url-handler|VSCodium>": "󰨞 ",
+            "class<dev.zed.Zed>": "󰵁 ",
+            "class<codeblocks>": "󰅩 ",
+            "title<.*github.*>": " ",
+            "class<mousepad>": " ",
+            "class<libreoffice-writer>": " ",
+            "class<libreoffice-startcenter>": "󰏆 ",
+            "class<libreoffice-calc>": " ",
+            "title<.*nvim ~.*>": " ",
+            "title<.*vim.*>": " ",
+            "title<.*nvim.*>": " ",
+            "title<.*figma.*>": " ",
+            "title<.*jira.*>": " ",
+            "class<jetbrains-idea>": " ",
+
+            "class<obs|com.obsproject.Studio>": " ",
+
+            "class<polkit-gnome-authentication-agent-1>": "󰒃 ",
+            "class<nwg-look>": " ",
+            "class<nwg-displays>": " ",
+            "class<[Pp]avucontrol|org.pulseaudio.pavucontrol>": "󱡫 ",
+            "class<steam>": " ",
+            "class<thunar|nemo>": "󰝰 ",
+            "class<Gparted>": "",
+            "class<gimp>": " ",
+            "class<emulator>": "📱 ",
+            "class<android-studio>": " ",
+            "class<org.pipewire.Helvum>": "󰓃",
+            "class<localsend>": "",
+            "class<PrusaSlicer|UltiMaker-Cura|OrcaSlicer>": "󰹛 ",
+
+            "class<io.github.kolunmi.Bazaar>": " ",
+            "title<^Bazaar$>": " ",
+
+            "class<com.gabm.satty>": " ",
+            "title<^satty$>": " ",
+
+            "class<[Bb]ox[Bb]uddy|io.github.dvlv.boxbuddy|io.github.dvlv.BoxBuddy>": " ",
+            "title<.*BoxBuddy.*>": " ",
+
+            "title<Hyprland Keybinds>": " ",
+            "title<Niri Keybinds>": " ",
+            "title<BSPWM Keybinds>": " ",
+            "title<DWM Keybinds>": " ",
+            "title<Emacs Leader Keybinds>": " ",
+            "title<Kitty Configuration>": " ",
+            "title<WezTerm Configuration>": " ",
+            "title<Yazi Configuration>": " ",
+            "title<Cheatsheets Viewer>": " ",
+            "title<Documentation Viewer>": " ",
+            "title<^Wallpapers$>": " ",
+            "title<^Video Wallpapers$>": " ",
+            "title<^qs-wlogout$>": " "
+        }
+    },
+
+   
+    "clock": {
+        "interval": 1,
+        "format": " {:%H:%M:%S}", // 24H
+        "format-alt": " {:%H:%M   %Y, %d %B, %A}",
+        "tooltip-format": "<tt><small>{calendar}</small></tt>",
+        "calendar": {
+            "mode": "year",
+            "mode-mon-col": 3,
+            "weeks-pos": "right",
+            "on-scroll": 1,
+            "format": {
+                "months": "<span color='#ffead3'><b>{}</b></span>",
+                "days": "<span color='#ecc6d9'><b>{}</b></span>",
+                "weeks": "<span color='#99ffdd'><b>W{:%V}</b></span>",
+                "weekdays": "<span color='#ffcc66'><b>{}</b></span>",
+                "today": "<span color='#ff6699'><b><u>{}</u></b></span>"
+            }
+        }
+    },
+
+    "wireplumber": {
+        "format": "\udb81\udd7e  {volume}%",
+        "max-volume": 100,
+        "scroll-step": 5
+    },
+
+    "battery": {
+        "bat": "BAT1",
+        "interval": 60,
+        "format": "{icon}  {capacity}%",
+        "format-icons": ["\uf244", "\uf243", "\uf242", "\uf241", "\uf240"]
+    },
+
+    "memory": {
+        "interval": 10,
+        "format": "{used:0.1f}G 󰾆",
+        "format-alt": "{percentage}% 󰾆",
+        "format-alt-click": "click",
+        "tooltip": true,
+        "tooltip-format": "{used:0.1f}GB/{total:0.1f}G"
+    },
+
+    "cpu": {
+        "format": "{usage}% 󰍛",
+        "interval": 1,
+        "min-length": 5,
+        "format-alt-click": "click",
+        "format-alt": "{icon0}{icon1}{icon2}{icon3} {usage:>2}% 󰍛",
+        "format-icons": [
+            "▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"
+        ],
+        "on-click-right": "gnome-system-monitor"
+    },
+
+    "backlight": {
+        "interval": 2,
+        "align": 0,
+        "rotate": 0,
+        "format-icons": [
+            " ",
+            " ",
+            " ",
+            "󰃝 ",
+            "󰃞 ",
+            "󰃟 ",
+            "󰃠 "
+        ],
+        "format": "{icon}",
+        "tooltip-format": "backlight {percent}%",
+        "icon-size": 10,
+        "on-click": "",
+        "on-click-middle": "",
+        "on-click-right": "",
+        "on-update": "",
+        "smooth-scrolling-threshold": 1
+    },
+
+    "battery": {
+        //"interval": 5,
+        "align": 0,
+        "rotate": 0,
+        //"bat": "BAT1",
+        //"adapter": "ACAD",
+        "full-at": 100,
+        "design-capacity": false,
+        "states": {
+            "good": 95,
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{icon} {capacity}%",
+        "format-charging": " {capacity}%",
+        "format-plugged": "󱘖 {capacity}%",
+        "format-alt-click": "click",
+        "format-full": "{icon} Full",
+        "format-alt": "{icon} {time}",
+        "format-icons": [
+            "󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"
+        ],
+        "format-time": "{H}h {M}min",
+        "tooltip": true,
+        "tooltip-format": "{timeTo} {power}w"
+    },
+
+    "network": {
+        "format": "{ifname}",
+        "format-wifi": "{icon}",
+        "format-ethernet": "󰌘",
+        "format-disconnected": "󰌙",
+        "tooltip-format": "{ipaddr}   {bandwidthDownBits},  {bandwidthUpBits}",
+        "format-linked": "󰈁 {ifname} (No IP)",
+        "tooltip-format-wifi": "{essid} {icon} {signalStrength}%",
+        "tooltip-format-ethernet": "{ifname} 󰌘",
+        "tooltip-format-disconnected": "󰌙 Disconnected",
+        "max-length": 30,
+        "format-icons": [
+            "󰤯", "󰤟", "󰤢", "󰤥", "󰤨"
+        ]
+    },
+
+    
+    "network#speed": {
+        "interval": 1,
+        "format": "{ifname}",
+        "format-wifi": "{icon}  {bandwidthUpBytes}  {bandwidthDownBytes}",
+        "format-ethernet": "󰌘  {bandwidthDownBytes},  {bandwidthUpBytes}",
+        "format-disconnected": "󰌙",
+        "tooltip-format": "{ipaddr}",
+        "format-linked": "󰈁 {ifname} (No IP)",
+        "tooltip-format-wifi": "{essid} {icon} {signalStrength}%",
+        "tooltip-format-ethernet": "{ifname} 󰌘",
+        "tooltip-format-disconnected": "󰌙 Disconnected",
+        "min-length": 24,
+        "max-length": 24,
+        "format-icons": [
+            "󰤯", "󰤟", "󰤢", "󰤥", "󰤨"
+        ]
+    },
+
+    "hyprland/language": {
+        "format": "⌨ {short}"
+    },
+
+    "tray": {
+        "icon-size": 16,
+        "spacing": 16
+    },
+
+    "idle_inhibitor": {
+        "tooltip": true,
+        "tooltip-format-activated": "Idle_inhibitor active",
+        "tooltip-format-deactivated": "Idle_inhibitor not active",
+        "format": "{icon}",
+        "format-icons": {
+            "activated": " ",
+            "deactivated": " "
+        }
+    },
+
+    "custom/power": {
+        "format": "⏻",
+        "on-click": "wlogout"
+    },
+    
+    "custom/space": {
+        "format": " "
+    }
+}
