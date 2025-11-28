@@ -19,6 +19,10 @@ cd Hyprland-Dots
 
 <img src="https://raw.githubusercontent.com/xorandd/Hyprland-Dots/refs/heads/main/images/wlogout.png" width="800" />
 
+<img src="https://raw.githubusercontent.com/xorandd/Hyprland-Dots/refs/heads/main/images/grub-theme.png" width="800" />
+
+<img src="https://raw.githubusercontent.com/xorandd/Hyprland-Dots/refs/heads/main/images/sddm-theme.png" width="800" />
+
 ---
 
 ## ⌨️ Keybinds
