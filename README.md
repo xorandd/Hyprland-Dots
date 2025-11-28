@@ -17,15 +17,27 @@ are not set by default, also set mouse cursor `Bibata-Modern-Ice` just to be sur
 
 ## 📷 Screenshots
 
+Desktop
+
 <img src="https://raw.githubusercontent.com/xorandd/Hyprland-Dots/refs/heads/main/images/desktop.png" width="800" />
+
+Thunar
 
 <img src="https://raw.githubusercontent.com/xorandd/Hyprland-Dots/refs/heads/main/images/thunar.png" width="800" />
 
+Rofi
+
 <img src="https://raw.githubusercontent.com/xorandd/Hyprland-Dots/refs/heads/main/images/rofi.png" width="800" />
+
+Wlogout
 
 <img src="https://raw.githubusercontent.com/xorandd/Hyprland-Dots/refs/heads/main/images/wlogout.png" width="800" />
 
+Grub theme
+
 <img src="https://raw.githubusercontent.com/xorandd/Hyprland-Dots/refs/heads/main/images/grub-theme.png" width="800" />
+
+SDDM theme
 
 <img src="https://raw.githubusercontent.com/xorandd/Hyprland-Dots/refs/heads/main/images/sddm-theme.png" width="800" />
 
