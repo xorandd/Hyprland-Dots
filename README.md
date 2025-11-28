@@ -1,4 +1,4 @@
-# Hyprland configuration files
+# Hyprland configuration files (Arch Linux)
 
 ## 📥 Installation
 
