@@ -12,113 +12,114 @@
         "break",
         {
             "type": "custom",
-            "format": "╭─────────────────────DISTRO──────────────────────╮"
+            "format": "\u001b[90m╭─────────────────────DISTRO──────────────────────╮"
         },
         {
             "type": "os",
             "key": "  ┌",
-            "keyColor": "\u001b[90m"  // Gray
+            "keyColor": "white"
         },
         {
             "type": "kernel",
             "key": "  ├",
-            "keyColor": "\u001b[90m"  // Gray
+            "keyColor": "white"           
         },
         {
             "type": "packages",
             "key": "  ├󰏖",
-            "keyColor": "\u001b[90m"  // Gray
+            "keyColor": "white"
         },
         {
             "type": "shell",
             "key": "  └",
-            "keyColor": "\u001b[90m"  // Gray
+            "keyColor": "white"
         },
         {
             "type": "custom",
-            "format": "╰─────────────────────────────────────────────────╯"
+            "format": "\u001b[90m╰─────────────────────────────────────────────────╯"
         },
         {
             "type": "custom",
-            "format": "╭─────────────────────DE/WM───────────────────────╮"
+            "format": "\u001b[90m╭─────────────────────DE/WM───────────────────────╮"
         },
         {
             "type": "wm",
             "key": "  ┌",
-            "keyColor": "\u001b[90m"  // Gray
+            "keyColor": "white"
         },
         {
             "type": "wmtheme",
             "key": "  ├󰉼",
-            "keyColor": "\u001b[90m"  // Gray
+            "keyColor": "white"
         },
         {
             "type": "icons",
             "key": "  ├󰀻",
-            "keyColor": "\u001b[90m"  // Gray
+            "keyColor": "white"
         },
         {
             "type": "cursor",
             "key": "  ├",
-            "keyColor": "\u001b[90m"  // Gray
+            "keyColor": "white"
         },
         {
             "type": "terminalfont",
             "key": "  ├",
-            "keyColor": "\u001b[90m"  // Gray
+            "keyColor": "white"
         },
         {
             "type": "terminal",
             "key": "  └",
-            "keyColor": "\u001b[90m"  // Gray
+            "keyColor": "white"
         },
         {
             "type": "custom",
-            "format": "╰─────────────────────────────────────────────────╯"
+            "format": "\u001b[90m╰─────────────────────────────────────────────────╯"
         },
         {
             "type": "custom",
-            "format": "╭─────────────────────SYSTEM──────────────────────╮"
+            "format": "\u001b[90m╭─────────────────────SYSTEM──────────────────────╮"
         },
         {
             "type": "host",
             "key": "  ┌󰌢",
-            "keyColor": "\u001b[90m"  // Gray
+            "keyColor": "white"
         },
         {
             "type": "cpu",
             "key": "  ├󰻠",
-            "keyColor": "\u001b[90m"  // Gray
+            "keyColor": "white"
         },
         {
             "type": "gpu",
             "key": "  ├󰻑",
             "format": "{2}",
-            "keyColor": "\u001b[90m"  // Gray
+            "keyColor": "white"
         },
         {
             "type": "display",
             "key": "  ├󰍹",
-            "keyColor": "\u001b[90m"  // Gray
+            "keyColor": "white",
+            "compactType": "original-with-refresh-rate"
         },
         {
             "type": "memory",
             "key": "  ├󰾆",
-            "keyColor": "\u001b[90m"  // Gray
+            "keyColor": "white"
         },
         {
             "type": "swap",
             "key": "  ├󰓡",
-            "keyColor": "\u001b[90m"  // Gray
+            "keyColor": "white"
         },
         {
             "type": "display",
             "key": "  └󰍹",
-            "keyColor": "\u001b[90m"  // Gray
+            "keyColor": "white"
         },
         {
             "type": "custom",
-            "format": "╰─────────────────────────────────────────────────╯"
+            "format": "\u001b[90m╰─────────────────────────────────────────────────╯"
         },
         {
             "type": "custom",
@@ -126,4 +127,3 @@
         }
     ]
 }
-

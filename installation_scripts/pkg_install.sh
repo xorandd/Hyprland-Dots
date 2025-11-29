@@ -25,6 +25,7 @@ REQUIRED_PACKAGES=(
     nvim
     pamixer
     swww
+    swappy
     pavucontrol
     playerctl
     qt5ct
