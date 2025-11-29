@@ -66,6 +66,8 @@ General keybinds
 | SUPER + Left                          | Move focus left                                                  |
 | SUPER + Right                         | Move focus right                                                 |
 | SUPER + Up                            | Move focus up                                                    |
+| SUPER + V                             | Open clipboard history                                           |
+| SUPER + ALT + V                       | Delete clipboard history                                         |
 
 Workspace/Window keybinds
 | Keybinds                              | Action                                                           |
