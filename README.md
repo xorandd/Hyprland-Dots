@@ -63,15 +63,15 @@ General keybinds
 | SUPER + SHIFT + F                     | Fullscreen window                                                |
 | SUPER + CTRL + F                      | Maximize window (fullscreen)                                     |
 | SUPER + SHIFT + S                     | Screenshot region (script)                                       |
-| SUPER + Left                          | Move focus left                                                  |
-| SUPER + Right                         | Move focus right                                                 |
-| SUPER + Up                            | Move focus up                                                    |
 | SUPER + V                             | Open clipboard history                                           |
 | SUPER + ALT + V                       | Delete clipboard history                                         |
 
 Workspace/Window keybinds
 | Keybinds                              | Action                                                           |
 |---------------------------------------|------------------------------------------------------------------|
+| SUPER + Left                          | Move focus left                                                  |
+| SUPER + Right                         | Move focus right                                                 |
+| SUPER + Up                            | Move focus up                                                    |
 | SUPER + Down                          | Move focus down                                                  |
 | SUPER + 1                             | Switch to workspace 1                                            |
 | SUPER + 2                             | Switch to workspace 2                                            |
