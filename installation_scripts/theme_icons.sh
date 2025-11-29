@@ -10,6 +10,5 @@ cp -r "$INSTALLER_DIR/icons/Flat-Remix-Grey-Dark" "$ICONS_DIR/"
 cp -r "$INSTALLER_DIR/icons/Bibata-Modern-Ice" "$ICONS_DIR/"
 
 # GTK configs
-cp -r "$INSTALLER_DIR/gtk/gtk-3.0" "$HOME/.config/"
-cp -r "$INSTALLER_DIR/gtk/gtk-4.0" "$HOME/.config/"
-
+cp -r "$INSTALLER_DIR/config/gtk/gtk-3.0" "$HOME/.config/"
+cp -r "$INSTALLER_DIR/config/gtk/gtk-4.0" "$HOME/.config/"
