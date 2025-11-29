@@ -33,6 +33,6 @@ fi
 
 # generate grub config to apply theme
 echo "${BRIGHT_YELLOW}[*]${RESET} Regenerating GRUB config..."
-sudo grub-mkconfig -o /boot/grub/grub.cfg
+sudo grub-mkconfig -o /boot/grub/grub.cfg > /dev/null 2>&1
 
 echo "${BRIGHT_GREEN}[+]${RESET} GRUB theme installed successfully!"
