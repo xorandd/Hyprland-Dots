@@ -13,6 +13,7 @@ REQUIRED_PACKAGES=(
     btop
     thunar
     nwg-look
+    nwg-displays
     rofi
     kitty
     waybar
