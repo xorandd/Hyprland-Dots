@@ -1,6 +1,4 @@
-/* ROUNDED THEME FOR ROFI */
-/* Author: Newman Sanchez (https://github.com/newmanls) */
-
+/* ROUDNED THEME FOR ROFI */
 * {
     font:   "JetBrainsMono Nerd Font SemiBold 14";
 
@@ -16,18 +14,21 @@ window {
     location:       north;
     y-offset:       calc(50% - 176px);
     width:          480;
-    border-radius:  24px;
+    border-radius: 10px;
 
+    border: 3px;
+    border-color:       @border-color;
     background-color:   @bg0;
 }
 
 mainbox {
     padding:    12px;
+    background-color: inherit;
 }
 
 inputbar {
     background-color:   @bg1;
-    border-color:       @bg3;
+    border-color:       @border-color;
 
     border:         2px;
     border-radius:  16px;
@@ -93,3 +94,4 @@ element-icon {
 element-text {
     text-color: inherit;
 }
+
