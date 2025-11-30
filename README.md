@@ -83,6 +83,10 @@ Workspace/Window keybinds
 | SUPER + 8                             | Switch to workspace 8                                            |
 | SUPER + 9                             | Switch to workspace 9                                            |
 | SUPER + 0                             | Switch to workspace 10                                           |
+| SUPER CTRL + Left                     | Move window to the left                                          |
+| SUPER CTRL + Right                    | Move window to the right                                         |
+| SUPER CTRL + Up                       | Move window up                                                   |
+| SUPER CTRL + Down                     | Move window down                                                 |
 | SUPER + SHIFT + 1                     | Move active window to workspace 1                                |
 | SUPER + SHIFT + 2                     | Move active window to workspace 2                                |
 | SUPER + SHIFT + 3                     | Move active window to workspace 3                                |
