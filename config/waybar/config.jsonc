@@ -3,20 +3,41 @@
     "position": "top",
     "height": 24,
     "spacing": 5,
-    "modules-left": ["hyprland/workspaces#rw"],
+    "modules-left": ["hyprland/workspaces#rw", "custom/separator", "custom/privacydots"],
     "modules-center": ["clock", "idle_inhibitor"],
     "modules-right": [
+        "custom/separator",
         "tray",
+        "custom/separator",
         "network#speed",
+        "custom/separator",
         "cpu",
         "memory",
+        "custom/separator",
         "wireplumber",
         "backlight",
+        "custom/separator",
         "hyprland/language",
         "battery",
         "custom/power",
         "custom/space"
     ],
+
+    
+    "custom/privacydots": {
+        "exec": "$HOME/.config/hypr/scripts/privacy_dots.sh",
+        "return-type": "json",
+        "interval": 3,
+        "format": "{text}",
+        "tooltip": true,
+        "escape": false,
+        "markup": "pango"
+    },
+
+    "custom/separator": {
+        "format": "",
+        "interval": "once"
+    },
 
     "hyprland/workspaces#rw": {
         "disable-scroll": true,
