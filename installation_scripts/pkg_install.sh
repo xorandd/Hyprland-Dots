@@ -41,6 +41,9 @@ REQUIRED_PACKAGES=(
     ttf-fantasque-nerd
     ttf-montserrat
     ttf-jetbrains-mono-nerd
+    jq
+    pipewire
+    dbus
 )
 
 is_package_installed(){

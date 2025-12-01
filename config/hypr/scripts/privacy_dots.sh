@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 # original script: https://github.com/alvaniss/privacy-dots
-# dependencies: font awesome, noto font emoji(for pin location?), pipewire (pw-dump), v4l2loopback-dkms, jq, dbus-send (dbus)
 set -euo pipefail
 
 JQ_BIN="${JQ:-jq}"
