@@ -21,7 +21,7 @@ Desktop
 
 <img src="https://raw.githubusercontent.com/xorandd/Hyprland-Dots/refs/heads/main/images/desktop.png" width="800" />
 
-Thunar
+GTK Theme
 
 <img src="https://raw.githubusercontent.com/xorandd/Hyprland-Dots/refs/heads/main/images/thunar.png" width="800" />
 
