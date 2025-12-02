@@ -56,3 +56,17 @@ sleep 0.5
 echo "${BRIGHT_YELLOW}[*]${RESET} After rebooting open nwg-look and select gtk theme 'Flat-Remix-GTKG-Grey-Darkest' with icon theme 'Flat-Remix-Grey-Dark'"
 sleep 1
 echo "${BRIGHT_GREEN}[+]${RESET} Installation completed!"
+
+echo -n "${BRIGHT_YELLOW}[*]${RESET} It's recommended reboot system now, do you want to do this? [Y/n]: "
+read reboot_ans
+reboot_ans=${reboot_ans:-Y}
+if [[ "$reboot_ans" =~ ^[Nn]$ ]]; then
+    echo "${BRIGHT_YELLOW}[*]${RESET} Exiting without rebooting..."
+    exit 1
+fi
+
+echo "${BRIGHT_YELLOW}[*]${RESET} Rebooting..."
+
+sleep 3
+
+systemctl reboot
