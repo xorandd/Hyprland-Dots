@@ -19,6 +19,7 @@ REQUIRED_PACKAGES=(
     waybar
     wlogout
     hypridle
+    hyprlock
     fastfetch
     cliphist
     bluez
