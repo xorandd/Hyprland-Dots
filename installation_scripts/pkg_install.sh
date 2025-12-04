@@ -57,7 +57,7 @@ is_package_installed(){
 
 
 echo "${BRIGHT_YELLOW}[*]${RESET} Try to update system before installing packages..."
-sudo pacman -Syu
+sudo pacman -Syu > /dev/null 2>&1
 
 echo -e "\n${BRIGHT_YELLOW}[*]${RESET} Checking and installing missing packages..."
 for package in "${REQUIRED_PACKAGES[@]}"; do
