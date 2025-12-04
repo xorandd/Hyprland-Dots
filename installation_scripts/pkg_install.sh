@@ -7,6 +7,7 @@ BRIGHT_YELLOW=$(tput setaf 3)
 RESET=$(tput sgr0)
 
 REQUIRED_PACKAGES=(
+    hyprland
     curl
     firefox
     htop
@@ -33,6 +34,7 @@ REQUIRED_PACKAGES=(
     qt5ct
     qt6ct
     qt6-svg
+    wireplumber
     wl-clipboard
     grim
     slurp
