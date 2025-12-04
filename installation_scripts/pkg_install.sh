@@ -21,6 +21,7 @@ REQUIRED_PACKAGES=(
     wlogout
     hypridle
     hyprlock
+    network-manager-applet
     fastfetch
     cliphist
     bluez
