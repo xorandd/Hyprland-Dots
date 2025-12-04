@@ -23,6 +23,7 @@ REQUIRED_PACKAGES=(
     hyprlock
     network-manager-applet
     fastfetch
+    glib2
     cliphist
     bluez
     blueman
@@ -53,6 +54,10 @@ REQUIRED_PACKAGES=(
 is_package_installed(){
     pacman -Q "$1" &>/dev/null
 }
+
+
+echo "${BRIGHT_YELLOW}[*]${RESET} Try to update system before installing packages..."
+sudo pacman -Syu
 
 echo -e "\n${BRIGHT_YELLOW}[*]${RESET} Checking and installing missing packages..."
 for package in "${REQUIRED_PACKAGES[@]}"; do
