@@ -53,7 +53,7 @@ cp "$INSTALLER_DIR/wallpaper/wallpaper1.jpg" "$HOME/Pictures/wallpapers/wallpape
 
 echo "${BRIGHT_YELLOW}[*]${RESET} Dont forget to reboot system after installer finishes"
 sleep 0.5
-echo "${BRIGHT_YELLOW}[*]${RESET} After rebooting open nwg-look and select gtk theme 'Flat-Remix-GTKG-Grey-Darkest' with icon theme 'Flat-Remix-Grey-Dark'"
+echo "${BRIGHT_YELLOW}[*]${RESET} After rebooting open nwg-look and select mouse cursor 'Bibata-Modern-Ice'"
 sleep 1
 echo "${BRIGHT_GREEN}[+]${RESET} Installation completed!"
 
