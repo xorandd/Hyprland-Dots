@@ -9,8 +9,7 @@ cd Hyprland-Dots
 ```
 
 After installation:
- - in nwg-look (open rofi using SUPER+D) select GTK theme `Flat-Remix-GTK-Grey-Darkest` and icon theme `Flat-Remix-Grey-Dark` because they
-are not set by default, also set mouse cursor `Bibata-Modern-Ice` just to be sure. 
+ - in nwg-look (open rofi using SUPER+D) set mouse cursor to `Bibata-Modern-Ice`. 
 
 ---
 
